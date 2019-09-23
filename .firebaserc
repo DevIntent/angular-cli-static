@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-cli-static": {
+      "hosting": {
+        "static-html": [
+          "angular-cli-static"
+        ]
+      }
+    }
+  }
+}

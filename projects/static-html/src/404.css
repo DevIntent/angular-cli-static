@@ -1,0 +1,97 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+h1 {
+  margin: 1em 0;
+  padding: 0 0 0.25em;
+  border-bottom: 1px dotted #CCC;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.1em;
+}
+h2 {
+  margin: 1em 0 0.45em;
+  padding: 0;
+  font-size: 1.8em;
+}
+p {
+  margin: 0 0 0.5em;
+  line-height: 1.8em;
+}
+a {
+  text-decoration: none;
+}
+button {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #3366FF;
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4px 16px;
+  margin: 6px 8px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+  min-width: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1em;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
+  background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-property: box-shadow, background-color;
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1), cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-delay: initial, initial;
+}
+button:hover,
+button:focus {
+  background-color: #304ffe;
+}
+main {
+   margin: 88px auto;
+ }
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 1em;
+}
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.toolbar img {
+  margin: 0 16px;
+}

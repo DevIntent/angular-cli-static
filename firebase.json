@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "static-html",
+      "public": "dist/static-html",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

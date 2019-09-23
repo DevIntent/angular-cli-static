@@ -25,6 +25,8 @@
             "aot": true,
             "assets": [
               "projects/static-html/src/favicon.ico",
+              "projects/static-html/src/404.html",
+              "projects/static-html/src/404.css",
               "projects/static-html/src/assets"
             ],
             "styles": [
@@ -85,9 +87,14 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "cli": {
     "analytics": "fc7225a9-dc2b-4b2a-a9a7-ad4d6246ca26"
   },
