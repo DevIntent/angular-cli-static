@@ -32,7 +32,7 @@ ng new --create-application=false angular-cli-static
 ```shell script
 ng g app --style=scss --minimal=true --routing=false --skip-tests=true static-html
 ```
-1. Comment out `zone.js` import in [polyfills.ts](polyfills.ts)
+1. Comment out `zone.js` import in [polyfills.ts](projects/static-html/src/polyfills.ts)
 1. In [angular.json](angular.json) clear out `"fileReplacements": []`
 1. Remove `app/`, `environments/`
 1. Remove the following Angular dependencies from [package.json](package.json)'s `dependencies`:
